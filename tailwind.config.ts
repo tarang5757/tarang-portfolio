@@ -34,8 +34,8 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        shopify: {
-          DEFAULT: "#008060",
+        integria: {
+          DEFAULT: "#a57db1",
         },
         theme: {
           DEFAULT: "#2E8B57",

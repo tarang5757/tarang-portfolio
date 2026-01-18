@@ -54,7 +54,7 @@ const Essentials = () => {
           <p className="mb-4">
             I&apos;m currently studying Computer Science at York University and
             I will be working at{" "}
-            <span className="text-integria-consulting">
+            <span className="text-integria">
               Integria Consulting
             </span>{" "}
             in the Winter.
@@ -65,8 +65,8 @@ const Essentials = () => {
           <h3 className="text-2xl font-semibold mb-4">Recently</h3>
           <ul>
             <li className="flex items-start">
-              <span className="text-gray-500 font-small mr     -3 mt-0.5">—</span>
-              <span>Can't wait for summer 2026! </span>
+              <span className="text-gray-500 font-small mr-3 mt-0.5">—</span>
+              <span> Can't wait for summer 2026! </span>
             </li>
             <li className="flex items-start">
               <span className="text-gray-500 font-small mr-3 mt-0.5">—</span>

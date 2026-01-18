@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import SocialIcons from "@/components/SocialIcons";
+import { IconBrandGithub, IconWorld } from "@tabler/icons-react";
+
 
 const ProjectsPage = () => {
     type Project = {
@@ -73,15 +75,20 @@ const ProjectsPage = () => {
                                     href={project.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-gray-700 hover:text-[#F6A45C] transition-colors"
+                                    className="text-gray-700 hover:text-[#2E8B57] transition-colors"
                                     aria-label="GitHub"
                                 >
+                                    <IconBrandGithub size={24} stroke={1.5} />
+
+
                                 </a>
                                 <a
                                     href={project.demo}
-                                    className="text-gray-700 hover:text-[#F6A45C] transition-colors"
+                                    className="text-gray-700 hover:text-[#2E8B57] transition-colors"
                                     aria-label="Live Demo"
                                 >
+                                    <IconWorld size={24} stroke={1.5} />
+
                                 </a>
                             </div>
                         </div>
