@@ -1,68 +1,42 @@
 import React from "react";
+import Image from "next/image"
 
 const SocialIcons = () => {
   return (
     <div className="flex justify-between items-center">
       <div className="flex gap-4">
         <a
-          href="mailto:r25bai@uwaterloo.ca"
+          href="mailto:tarang.patel.dev@gmail.com"
           className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
           aria-label="Email"
         >
-          [ email ]
+          <Image
+              src="/icons/gmail.png"
+              alt="Description of my icon"
+              width={20}
+              height={20}
+          />
         </a>
+
         <a
-          href="https://x.com/richieb21"
+          href="https://github.com/tarang5757"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
           aria-label="GitHub"
         >
-          [ twitter ]
+          <Image src="/icons/github-sign.png" alt="My Github" width={20} height={20} />
         </a>
         <a
-          href="https://github.com/richieb21"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
-          aria-label="GitHub"
-        >
-          [ github ]
-        </a>
-        <a
-          href="https://linkedin.com/in/bai-richard"
+          href="https://www.linkedin.com/in/tarangpatel11/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
           aria-label="LinkedIn"
         >
-          [ linkedin ]
-        </a>
-      </div>
+          <Image src="/icons/linkedin.png" alt="My Linkedin" width={20} height={20} />
 
-      <div className="flex items-center gap-2">
-        <a
-          className="text-gray-700 hover:text-theme transition-colors font-medium"
-          href="https://cs.uwatering.com/#https://richardbai.me/?nav=prev"
-        >
-          ←
-        </a>
-        <a
-          className="group"
-          href="https://cs.uwatering.com/#https://richardbai.me/"
-          target="_blank"
-        >
-          <img
-            src="https://cs.uwatering.com/icon.black.svg"
-            alt="CS Webring"
-            className="w-6 h-auto opacity-80 transition-all group-hover:opacity-100 group-hover:filter group-hover:brightness-50 group-hover:sepia group-hover:hue-rotate-180"
-          />
-        </a>
-        <a
-          className="text-gray-700 hover:text-theme transition-colors font-medium"
-          href="https://cs.uwatering.com/#https://richardbai.me/?nav=next"
-        >
-          →
+
         </a>
       </div>
     </div>

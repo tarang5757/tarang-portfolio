@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Tarang Patel",
   description: "Tarang Patel's personal programming portfolio",
   authors: {
-    name: "Richard Bai",
+    name: "Tarang Patel",
   },
   keywords: [
     "Tarang Patel",

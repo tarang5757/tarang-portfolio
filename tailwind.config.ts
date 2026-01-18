@@ -38,7 +38,7 @@ const config = {
           DEFAULT: "#008060",
         },
         theme: {
-          DEFAULT: "#D87657",
+          DEFAULT: "#2E8B57",
         },
         bgtheme: {
           DEFAULT: "#FBF9F4",

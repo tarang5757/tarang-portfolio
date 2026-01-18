@@ -33,14 +33,14 @@ export const metadata: Metadata = {
 
 const Essentials = () => {
   return (
-    <div className="min-h-screen bg-bgtheme text-gray-800 relative">
+    <div className="min-h-screen bg-[#FBF8F1] text-gray-800 relative">
       <div className="container mx-auto px-4 py-12 max-w-xl relative z-10">
         <Navbar currentPage="about" />
 
         <header className="mb-12">
           <h1 className="text-3xl md:text-4xl font-bold mb-2">Tarang Patel</h1>
           <h2 className="text-xl md:text-2xl text-gray-600">
-            Engineer, Student, Builder
+            Engineer, Learner, Builder
           </h2>
         </header>
 
@@ -65,23 +65,23 @@ const Essentials = () => {
           <h3 className="text-2xl font-semibold mb-4">Recently</h3>
           <ul>
             <li className="flex items-start">
-              <span className="text-gray-500 font-small mr-3 mt-0.5">—</span>
-              <span>Enjoying the summer</span>
+              <span className="text-gray-500 font-small mr     -3 mt-0.5">—</span>
+              <span>Can't wait for summer 2026! </span>
             </li>
             <li className="flex items-start">
               <span className="text-gray-500 font-small mr-3 mt-0.5">—</span>
-              <span>Studying Terraform&apos;s open source CLI</span>
+              <span>Studying Applied Machine Learning and Data Mining Currently at York University</span>
             </li>
             <li className="flex items-start">
               <span className="text-gray-500 font-small mr-3 mt-0.5">—</span>
               <span>
-                Learning system design and distributed systems architecture
+                Learning Generative Ai and RAG Models in Software Development
               </span>
             </li>
             <li className="flex items-start">
               <span className="text-gray-500 font-small mr-3 mt-0.5">—</span>
               <span>
-                A tool to help you ship with confidence (coming soon!)
+                Building This portfolio right now
               </span>
             </li>
           </ul>
