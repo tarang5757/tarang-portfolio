@@ -28,7 +28,7 @@ const ExperiencesPage = () => {
         {
             company: "CTRL-HACK-DEL",
             position: "Lead Developer",
-            period: "Summer 2025",
+            period: "Winter 2024",
             description:
                 "Served in the frontend team to design, build and implement pages  and dashboard using nextjs, react, typescript and etc for hackathon participants.",
         },
@@ -72,7 +72,6 @@ const ExperiencesPage = () => {
             </div>
           ))}
                 </div>
-
                 <footer className="mt-16 pt-8 border-t border-gray-200">
                     <SocialIcons />
                 </footer>

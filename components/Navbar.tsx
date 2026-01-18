@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 type NavbarProps = {
-  currentPage: "about" | "blog" | "projects" | "experiences";
+  currentPage: "about" | "blog" | "projects" | "experiences" | "gallery";
 };
 
 const Navbar = ({ currentPage }: NavbarProps) => {
@@ -55,6 +55,18 @@ const Navbar = ({ currentPage }: NavbarProps) => {
             } transition-colors`}
           >
             Experiences
+          </Link>
+        </li>
+        <li>
+          <Link
+              href="/gallery"
+              className={`text-lg ${
+                  currentPage === "gallery"
+                      ? "font-semibold text-theme"
+                      : "text-gray-700 hover:text-theme"
+              } transition-colors`}
+          >
+            Gallery
           </Link>
         </li>
       </ul>

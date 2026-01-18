@@ -16,7 +16,7 @@ const BlogPage = () => {
 
         {
             title: "My Journey into Web Development",
-            date: "May 15, 2023",
+            date: "January 16, 2026",
             content:
                 "From complete beginner to building my first full-stack application, here's how I started my journey into web development.",
             link: "/blog/journey-web-development",
@@ -25,7 +25,7 @@ const BlogPage = () => {
         },
         {
             title: "Building a Personal Website with Next.js",
-            date: "June 10, 2023",
+            date: "January 16, 2026",
             content:
                 "Learn how I built this very website using Next.js, Tailwind CSS, and some other awesome tools.",
             link: "/blog/building-personal-website",
