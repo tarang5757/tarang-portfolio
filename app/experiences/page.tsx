@@ -25,6 +25,13 @@ const ExperiencesPage = () => {
             description:
                 "I built a webpage that serves as a bridge between 2 groups (farmers and food banks) and connect them via point-based matching algorithm.",
         },
+        {
+            company: "CTRL-HACK-DEL",
+            position: "Lead Developer",
+            period: "Summer 2025",
+            description:
+                "Served in the frontend team to design, build and implement pages  and dashboard using nextjs, react, typescript and etc for hackathon participants.",
+        },
     ];
 
     return (
