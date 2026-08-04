@@ -20,7 +20,7 @@ const ExperiencesPage = () => {
             <>
               Working alongside Prof. Sara Diamond and Robert Wright on the{" "}
               <a
-                href="https://uttri.utoronto.ca/news/icity-2-0-annual-research-day/"
+                href="https://uttri.utoronto.ca/news/icity-2-0-urban-data-science-for-future-mobility-receives-funding-from-the-ontario-research-fund-research-excellence-round-10/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-theme font-medium hover:underline underline-offset-4"
