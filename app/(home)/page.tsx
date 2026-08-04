@@ -2,9 +2,10 @@ import React from "react";
 import SocialIcons from "@/components/SocialIcons";
 import Navbar from "@/components/Navbar";
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tarangx.tech/"),
+  metadataBase: new URL("https://tarang-dev.com/"),
   title: "Tarang Patel",
   description: "Engineer, Student, Builder",
   openGraph: {
@@ -42,6 +43,15 @@ const Essentials = () => {
           <h2 className="text-xl md:text-2xl text-gray-600">
             Engineer, Learner, Builder
           </h2>
+
+          <Image
+            src="/Tarang-2.png"
+            width={900}
+            height={550}
+            quality={100}
+            alt="Tarang Patel overlooking the water"
+            className="w-[350px] h-[300px] object-cover rounded-2xl shadow-lg"
+          />
         </header>
 
         <section className="mb-12">
