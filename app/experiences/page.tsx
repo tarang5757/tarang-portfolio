@@ -6,16 +6,35 @@ type Experience = {
     company: string;
     position: string;
     period: string;
-    description?: string;
+    description?: React.ReactNode;
     isHighlighted?: boolean;
 };
 
 const ExperiencesPage = () => {
-    const experiences: Experience[] = [
+  const experiences: Experience[] = [
+    {
+          company: "OCAD University / University Of Toronto",
+          position: "Research Assistant - Visual Analytics Labs",
+          period: "Summer/Fall 2026",
+          description: (
+            <>
+              Working alongside Prof. Sara Diamond and Robert Wright on the{" "}
+              <a
+                href="https://uttri.utoronto.ca/news/icity-2-0-annual-research-day/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-theme font-medium hover:underline underline-offset-4"
+              >
+                iCity2.0 project
+              </a>
+              . I clean and manage large urban datasets and I'm currently building a  automation tool to simplify Excel spreadsheet processing for the broader research team to use.
+            </>
+          ),
+        },
         {
             company: "Integria Consulting",
             position: "Full-Stack Developer",
-            period: "Winter 2026",
+            period: "Winter/Spring 2026",
             description: "Under SaaS platform team ",
         },
         {
